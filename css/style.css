@@ -1,11 +1,10 @@
 body {
-    text-align: center;
+    color: white;
 }
 
-[class*=col-] {
-    min-height: 100px;
-    background-color: red;
-    border: 1px solid black;
+.wrapper_60 {
+    width: 60%;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -15,23 +14,86 @@ body {
 }
 
 #header-bottom {
+    padding: 80px 15px;
     background-color: #1abc9c;
-    height: 300px;
-    padding-top: 20px;
+}
+
+#header-bottom img{
+    height: 260px;
+}
+
+.star > i {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
 }
 
 /* Main */
+
+#main-top {
+    padding: 80px 0;
+    background-color: white;
+    color: black;
+}
+
+.portfolio_item {
+    /* border-radius: 10px; */
+    height: 250px;
+    margin: 15px 0;
+}
+
+#main-top img {
+    height: 100%;
+    border-radius: 10px;
+}
+
 #main-central {
+    padding: 60px 0;
     background-color: #1abc9c;
 }
 
-/* Footer */
+#main-central .btn-default {
+    background-color: #1abc9c;
+    color: white;
+    margin-top: 30px;
+}
+
+#main-bottom {
+    background-color: white;
+    color: black;
+    padding: 60px 0;
+}
+
+#main-bottom p:not(:last-child) {
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+#main-bottom .btn-default {
+    background-color: #1abc9c;
+    color: white;
+    margin-left: 10px;
+    margin-top: 90px;
+}
+
 #footer-top {
     background-color: #3a546d;
-    min-height: 100px;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#footer-top span {
+    color: #1abc9c;
+}
+
+#footer-top span > i {
+    color: white;
+    padding: 15px;
 }
 
 #footer-bottom {
     background-color: #2c3e50;
-    min-height: 100px;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
 }
